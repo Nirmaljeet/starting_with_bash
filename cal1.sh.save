@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Enter two numbers"
+read a
+read b
+echo "enter choice"
+echo "1.addition"
+echo "2.subtraction"
+echo "3.multiplication"
+echo "4.division"
+echo "the answer of addition is"
+case $ch

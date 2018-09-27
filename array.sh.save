@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "enter first number"
+read first
+echo "enter second number"
+read sec
+echo "enter third number"
+read third
+if [ $first -gt $sec ] ; then
+if [ $first -gt $third ] ; then
+case "number" in
+echo -e " $first is greatest number ";;
+else
+echo -e " $third is greatest number ";;
+fi
+else
+if [ $sec -gt $third ] ; then
+echo -e " $sec is greatest number ";;
+else
+echo -e " $third is greatest number ";;
+greatest = array[0]
+for (i =0 ; i < 2; i++)
+ if [ array[i] >= greatest]
+ greatest = array[i]
+fi
+fi
+esac
